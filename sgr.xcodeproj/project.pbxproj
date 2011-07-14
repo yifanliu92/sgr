@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6243E913CE7818007CF052 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6243E813CE7818007CF052 /* UIKit.framework */; };
+		DD6243EB13CE7818007CF052 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6243EA13CE7818007CF052 /* Foundation.framework */; };
+		DD6243ED13CE7818007CF052 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6243EC13CE7818007CF052 /* CoreGraphics.framework */; };
+		DD6243F313CE7818007CF052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD6243F113CE7818007CF052 /* InfoPlist.strings */; };
+		DD6243F613CE7818007CF052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6243F513CE7818007CF052 /* main.m */; };
+		DD6243F913CE7818007CF052 /* sgrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6243F813CE7818007CF052 /* sgrAppDelegate.m */; };
+		DD6243FC13CE7818007CF052 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6243FA13CE7818007CF052 /* MainWindow.xib */; };
+		DD62442413CE8CC1007CF052 /* TestBedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD62442313CE8CC1007CF052 /* TestBedViewController.m */; };
+		DD62447813CEB6A6007CF052 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD62447513CEB6A6007CF052 /* 1.png */; };
+		DD62447913CEB6A6007CF052 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DD62447613CEB6A6007CF052 /* 2.PNG */; };
+		DD62447A13CEB6A6007CF052 /* 3..png in Resources */ = {isa = PBXBuildFile; fileRef = DD62447713CEB6A6007CF052 /* 3..png */; };
+		DD62447D13CEB827007CF052 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = DD62447C13CEB827007CF052 /* 57.png */; };
+		DD62447F13CEB82E007CF052 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = DD62447E13CEB82E007CF052 /* 114.png */; };
+		DD62448213CEBA96007CF052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD62448113CEBA96007CF052 /* ViewController.m */; };
+		DD62448413CEBDF3007CF052 /* 屏幕快照 2011-07-14 下午02.01.27.png in Resources */ = {isa = PBXBuildFile; fileRef = DD62448313CEBDF3007CF052 /* 屏幕快照 2011-07-14 下午02.01.27.png */; };
+		DD62448613CEBF4D007CF052 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD62448513CEBF4D007CF052 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD6243E413CE7818007CF052 /* sgr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sgr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6243E813CE7818007CF052 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD6243EA13CE7818007CF052 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD6243EC13CE7818007CF052 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD6243F013CE7818007CF052 /* sgr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sgr-Info.plist"; sourceTree = "<group>"; };
+		DD6243F213CE7818007CF052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD6243F413CE7818007CF052 /* sgr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sgr-Prefix.pch"; sourceTree = "<group>"; };
+		DD6243F513CE7818007CF052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD6243F713CE7818007CF052 /* sgrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sgrAppDelegate.h; sourceTree = "<group>"; };
+		DD6243F813CE7818007CF052 /* sgrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sgrAppDelegate.m; sourceTree = "<group>"; };
+		DD6243FB13CE7818007CF052 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD62442213CE8CC1007CF052 /* TestBedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBedViewController.h; sourceTree = "<group>"; };
+		DD62442313CE8CC1007CF052 /* TestBedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBedViewController.m; sourceTree = "<group>"; };
+		DD62447513CEB6A6007CF052 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DD62447613CEB6A6007CF052 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		DD62447713CEB6A6007CF052 /* 3..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3..png; sourceTree = "<group>"; };
+		DD62447C13CEB827007CF052 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		DD62447E13CEB82E007CF052 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		DD62448013CEBA96007CF052 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD62448113CEBA96007CF052 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD62448313CEBDF3007CF052 /* 屏幕快照 2011-07-14 下午02.01.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2011-07-14 下午02.01.27.png"; sourceTree = "<group>"; };
+		DD62448513CEBF4D007CF052 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6243E113CE7818007CF052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6243E913CE7818007CF052 /* UIKit.framework in Frameworks */,
+				DD6243EB13CE7818007CF052 /* Foundation.framework in Frameworks */,
+				DD6243ED13CE7818007CF052 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6243D913CE7818007CF052 = {
+			isa = PBXGroup;
+			children = (
+				DD62448513CEBF4D007CF052 /* Default.png */,
+				DD62447E13CEB82E007CF052 /* 114.png */,
+				DD62447C13CEB827007CF052 /* 57.png */,
+				DD6243EE13CE7818007CF052 /* sgr */,
+				DD6243E713CE7818007CF052 /* Frameworks */,
+				DD6243E513CE7818007CF052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6243E513CE7818007CF052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6243E413CE7818007CF052 /* sgr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6243E713CE7818007CF052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD6243E813CE7818007CF052 /* UIKit.framework */,
+				DD6243EA13CE7818007CF052 /* Foundation.framework */,
+				DD6243EC13CE7818007CF052 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6243EE13CE7818007CF052 /* sgr */ = {
+			isa = PBXGroup;
+			children = (
+				DD6243F713CE7818007CF052 /* sgrAppDelegate.h */,
+				DD6243F813CE7818007CF052 /* sgrAppDelegate.m */,
+				DD6243FA13CE7818007CF052 /* MainWindow.xib */,
+				DD62448013CEBA96007CF052 /* ViewController.h */,
+				DD62448113CEBA96007CF052 /* ViewController.m */,
+				DD62442213CE8CC1007CF052 /* TestBedViewController.h */,
+				DD62442313CE8CC1007CF052 /* TestBedViewController.m */,
+				DD6243EF13CE7818007CF052 /* Supporting Files */,
+			);
+			path = sgr;
+			sourceTree = "<group>";
+		};
+		DD6243EF13CE7818007CF052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD62448313CEBDF3007CF052 /* 屏幕快照 2011-07-14 下午02.01.27.png */,
+				DD62447513CEB6A6007CF052 /* 1.png */,
+				DD62447613CEB6A6007CF052 /* 2.PNG */,
+				DD62447713CEB6A6007CF052 /* 3..png */,
+				DD6243F013CE7818007CF052 /* sgr-Info.plist */,
+				DD6243F113CE7818007CF052 /* InfoPlist.strings */,
+				DD6243F413CE7818007CF052 /* sgr-Prefix.pch */,
+				DD6243F513CE7818007CF052 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6243E313CE7818007CF052 /* sgr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6243FF13CE7818007CF052 /* Build configuration list for PBXNativeTarget "sgr" */;
+			buildPhases = (
+				DD6243E013CE7818007CF052 /* Sources */,
+				DD6243E113CE7818007CF052 /* Frameworks */,
+				DD6243E213CE7818007CF052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sgr;
+			productName = sgr;
+			productReference = DD6243E413CE7818007CF052 /* sgr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6243DB13CE7818007CF052 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DD6243DE13CE7818007CF052 /* Build configuration list for PBXProject "sgr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD6243D913CE7818007CF052;
+			productRefGroup = DD6243E513CE7818007CF052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6243E313CE7818007CF052 /* sgr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6243E213CE7818007CF052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6243F313CE7818007CF052 /* InfoPlist.strings in Resources */,
+				DD6243FC13CE7818007CF052 /* MainWindow.xib in Resources */,
+				DD62447813CEB6A6007CF052 /* 1.png in Resources */,
+				DD62447913CEB6A6007CF052 /* 2.PNG in Resources */,
+				DD62447A13CEB6A6007CF052 /* 3..png in Resources */,
+				DD62447D13CEB827007CF052 /* 57.png in Resources */,
+				DD62447F13CEB82E007CF052 /* 114.png in Resources */,
+				DD62448413CEBDF3007CF052 /* 屏幕快照 2011-07-14 下午02.01.27.png in Resources */,
+				DD62448613CEBF4D007CF052 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6243E013CE7818007CF052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6243F613CE7818007CF052 /* main.m in Sources */,
+				DD6243F913CE7818007CF052 /* sgrAppDelegate.m in Sources */,
+				DD62442413CE8CC1007CF052 /* TestBedViewController.m in Sources */,
+				DD62448213CEBA96007CF052 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD6243F113CE7818007CF052 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6243F213CE7818007CF052 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD6243FA13CE7818007CF052 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6243FB13CE7818007CF052 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6243FD13CE7818007CF052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD6243FE13CE7818007CF052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DD62440013CE7818007CF052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sgr/sgr-Prefix.pch";
+				INFOPLIST_FILE = "sgr/sgr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD62440113CE7818007CF052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sgr/sgr-Prefix.pch";
+				INFOPLIST_FILE = "sgr/sgr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6243DE13CE7818007CF052 /* Build configuration list for PBXProject "sgr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6243FD13CE7818007CF052 /* Debug */,
+				DD6243FE13CE7818007CF052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6243FF13CE7818007CF052 /* Build configuration list for PBXNativeTarget "sgr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD62440013CE7818007CF052 /* Debug */,
+				DD62440113CE7818007CF052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6243DB13CE7818007CF052 /* Project object */;
+}
